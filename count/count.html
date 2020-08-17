@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>计算器</title>
+  <link rel="stylesheet" href="count.css">
+ <script src="cal.js"type="text/javascript"></script>
+</head> 
+<body>
+  <div id="mune" style="height:200px,width:200px;text-align:center">
+   ANSWER<form><input type="text"id="result"></form>
+   
+   
+   <br>
+   <button type="button"id="dAC"onclick="cle()">  AC </button>
+   <button type="button"id="da">  +/- </button>
+   <button type="button"id="db"onclick="rol()"> →  </button>
+   <button type="button"id="dc"onclick="fun('dc')"value="/">  ➗ </button>
+   </br>
+   <br>
+   <button type="button"id="d1"onclick="fun('d1')"value="1">  1  </button>
+   <button type="button"id="d2"onclick="fun('d2')"value="2">  2 </button>
+   <button type="button"id="d3"onclick="fun('d3')"value="3">  3  </button>
+   <button type="button"id="dd"onclick="fun('dd')"value="*">✖</button>
+  
+   </br>
+   <br>
+   <button type="button"id="d4"onclick="fun('d4')"value="4">  4 </button>
+   <button type="button"id="d5"onclick="fun('d5')"value="5">  5 </button>
+   <button type="button"id="d6"onclick="fun('d6')"value="6">   6 </button>
+   <button type="button"id="de"onclick="fun('de')"value="-"> ➖</button>
+   </br>
+   <br>
+   <button type="button"id="d7"onclick="fun('d7')"value="7">  7 </button>
+   <button type="button"id="d8"onclick="fun('d8')"value="8">  8 </button>
+   <button type="button"id="d9"onclick="fun('d9')"value="9">  9  </button>
+   <button type="button"id="df"onclick="fun('df')"value="+">  ➕ </button>
+   </br>
+   <br>
+   <button type="button"id="d0"onclick="fun('d0')"value="0">  0 </button>
+   <button type="button"id="dp"onclick="fun('dp')"value=".">  ·</button>
+   <button type="button"id="dg"onclick="equals()"value="="> ＝ </button>
+     
+   </br>
+          </div>
+          
+          
+  </body>
+  </html>
