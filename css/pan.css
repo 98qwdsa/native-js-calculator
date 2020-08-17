@@ -1,0 +1,55 @@
+#a
+{
+    width: 310px;
+    height: 100px;
+    background-color: aqua;
+    margin: auto;
+    padding-right: 9px;
+    border: 0;
+}
+
+#a1
+{
+    width: 312px;
+    height: 45px;
+    background-color: bisque;
+    margin: auto;
+    text-align: right;
+    font: 400 20px/40px "微软雅黑" ;
+}
+
+#a2
+{
+    width: 312px;
+    height: 45px;
+    background-color: rgb(204, 202, 199);
+    margin: auto;
+    text-align: right;
+    font: 400 20px/40px "微软雅黑" ;
+}
+
+#a3
+{
+    background-color: cadetblue;
+    width: 320px;
+    height: 300px;
+    margin: auto;
+}
+
+#da,#db,#dc,#dd,#d7,#d8,#d9,#de,#d4,#d5,#d6,#df,#d1,#d2,#d3,#dg,#di,#dp
+{
+    background-color: darkgray;
+    width: 80px;
+    height: 60px;
+    float: left;
+    font-size: 18px;
+}
+
+#d0
+{
+    background-color: darkgray;
+    width: 160px;
+    height: 60px;
+    float: left;
+    font-size: 18px;
+}
